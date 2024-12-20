@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+</head>
+
+<body>
+
+    <script>
+        // if statement
+
+        //     let voterAge=20
+
+        //     if(voterAge>=18)
+        // {
+        //     alert("valid to cast the vote");
+        // }
+
+        // document.write("Thanks")
+
+        // if else statement
+
+        // let marks = prompt("Enter your marks");
+
+        // if (marks >= 35) {
+        //     document.write("YIOU are pass");
+        // }
+        // else {
+        //     document.write("You are fail");
+        // }
+
+        // let marks=prompt("Enter your marks");
+
+        // if(marks>=80){
+        //     document.write("Grade A");
+        // }
+        // else if (marks>=50) {
+        //     document.write("Grade B");
+
+        // }
+        // else if(marks>=35){
+        //     document.write("Grade C");
+        // }
+        // else {
+        //     document.write("You Are fail");
+        // }
+
+        //  check given num is odd or even . if num even print table of this num.
+        // WAP to display greetings of the a per the clock hour 
+        // WAP to whether it is hot or cold 
+
+        // 1
+
+        // let num = prompt("Enter number");
+
+        // if (num % 2 == 0) {
+        //     document.write("Even ");
+        //     "<br>"
+        //     i = 0;
+        //     for (i = 1; i <= 10; i++) {
+        //         document.write( num * i + "<br>");
+        //     }
+        // }
+        // else {
+        //     document.write("Odd Num");
+
+        // }
+
+        // for in loop over array
+        // let studentNames=["JS1","JS2","JS3","JS4"];
+
+        // for(i in studentNames){
+
+        //     document.write(studentNames[i] + "<br>");
+        // }
+
+        // for --of loop over string
+
+        //     let course="Javascript";
+        //     for(x of course)
+        // {
+        //     document.write(x+"<br>")
+        // }
+
+        // Questions 
+
+        // 3.WAP to display 0f the week as per given number
+        // 2.WAP  to add first name and last name for given array
+        // 3.WAP to find double or square root for  the given odd or even number respectively
+
+
+        // 1 Solution
+
+        // let day = prompt("Enter day num");
+        // if (day == 1)
+        //     document.write("MONDAY" + "<br>");
+        // else if (day == 2)
+        //     document.write("Tuesday");
+        // else if (day == 3)
+        //     document.write("Wed");
+        // else if (day == 4)
+        //     document.write("Thur");
+        // else if (day == 5)
+        //     document.write("Fri");
+        // else if (day == 6)
+        //     document.write("Sat");
+        // else if (day == 7)
+        //     document.write("Sunaday");
+        // else
+        //     document.write("Enter between 1-7");
+
+        // Solution 2
+
+        // let firstName=["Satyam","Shanshank","Shivam"]
+        // let lastname=["Khandani","Dubey","Verma"]
+
+        // for ( i in firstName) {
+        // document.write(firstName[i]+" " +lastname[i] +"<br>" );
+        // }
+        //  Soluition 3
+        // let num=prompt("Enter Number");
+
+        // if(num%2==0){
+
+        //      document.write(Math.sqrt(num));
+        // }
+        // else
+        // document.write(2*num);
+
+        let word = ["Satyam"]
+
+        c = 0;
+        for (i in word) {
+            if(word[i]=="a"|| word[i]=="e"||word[i]=="i"||word[i]=="o"||word[i]=="u")
+            c=c+1;
+            document.write(c);
+
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

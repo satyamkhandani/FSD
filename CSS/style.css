@@ -1,0 +1,29 @@
+body{ background-color: cornsilk;}
+h1{ 
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: aquamarine;
+    color:blue;
+}
+p{
+    font-family: cursive;
+    font-size: 20px;
+ 
+    
+}
+.para{
+    color: red;
+
+}
+#para{
+    color: brown;
+
+}
+
+div>p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div~p{
+    background-color: chartreuse;
+}
